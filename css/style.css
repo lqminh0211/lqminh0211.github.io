@@ -19813,3 +19813,9 @@ body.white-version .rn-btn-ulderline {
       border: none;
       box-shadow: none;
     }
+    .rn-slider-area .content .description {
+    text-align: justify;
+    text-align-last: left; /* dòng cuối căn trái để không bị giãn cách kỳ lạ */
+    line-height: 1.6; /* khoảng cách dòng thoáng hơn */
+}
+
